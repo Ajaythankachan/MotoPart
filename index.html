@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bd3aec57a5.js" crossorigin="anonymous"></script>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
+    <title>MotoPart</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light custom-nav ">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <!-- <img class="logo" src="img/logo.svg" alt=""> -->
+                MotoPart
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Used car</a>
+                    </li>
+
+                    <!-- <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Autoparts
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New car</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <form>
+                            <div class="input-group nav-search">
+                                <input type="text" class="form-control" placeholder="Recipient's username"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn " type="button" id="button-addon2"><i
+                                        class="fa-solid fa-magnifying-glass" style="color: #c4c4c4;"></i></button>
+                            </div>
+                        </form>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner-wrap">
+        <div class="banner">
+            <!-- <div class="banner-left">
+                <div class="banner-left-inner">
+                    <h1>Cheap Car Spare Parts</h1>
+                    <p>We can find any spare part for your car.
+                        Just send us a message.</p>
+                    <a href="#" class="quote-btn">REQUEST A QUOTE</a>
+                </div>
+            </div>
+            <div class="banner-right">
+                <div class="overlay"></div>
+                <div class="contact-box">
+                    <div class="contact-item">
+                        <img src="img/telephone-call.png" alt="">
+                        <div>
+                            <h4>Call Us 24/7</h4>
+                            <a href="#">+ 1-234-567-89-00</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <img src="img/pin.png" alt="">
+                        <div>
+                            <h4>We are Here
+                            </h4>
+                            <a href="#">2572 McAllister St, San Francisco</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <div class="overlay"></div>
+            <div class="banner-center">
+
+                <div class="banner-center-content">
+                    <h1>Find the best Moto parts </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal" class="post-bnr-btn">Post requirement</a>
+                    <a data-bs-toggle="modal" data-bs-target="#sell" class="sell-bnr-btn">Sell parts</a>
+                </div>
+            </div>
+        </div>
+        <div class="filter-card">
+            <h3 class="semi-bld-hd">Buy a Spare Parts</h3>
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <a class="sell-bnr-btn-crd">Sell parts</a>
+                </div>
+            </div>
+            <!-- <div class="row">
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-3">
+            <a class="sell-bnr-btn">Sell parts</a>
+            </div>
+        </div> -->
+        </div>
+    </div>
+    <section class="recent-parts">
+        <div class="container">
+            <h2 class="main-bld-hd">
+                Recent Parts
+            </h2>
+            <div class="tabset">
+                <!-- Tab 1 -->
+                <input type="radio" name="tabset" id="tab1" aria-controls="car" checked>
+                <label for="tab1">Cars</label>
+                <!-- Tab 2 -->
+                <input type="radio" name="tabset" id="tab2" aria-controls="truck">
+                <label for="tab2">Trucks</label>
+                <!-- Tab 3 -->
+                <input type="radio" name="tabset" id="tab3" aria-controls="bus">
+                <label for="tab3">Bus</label>
+                <!-- Tab 4 -->
+                <input type="radio" name="tabset" id="tab4" aria-controls="bike">
+                <label for="tab4">Bike</label>
+                <!-- Tab 5 -->
+                <input type="radio" name="tabset" id="tab5" aria-controls="bot">
+                <label for="tab5">Boat</label>
+
+                <div class="tab-panels">
+                    <section id="car" class="tab-panel">
+                        <div class="tablist">
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="truck" class="tab-panel">
+                        <div class="tablist">
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="bus" class="tab-panel">
+                        <div class="tablist">
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="bike" class="tab-panel">
+                        <div class="tablist">
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/jeep.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="boat" class="tab-panel">
+                        <div class="tablist">
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+                            <div class="tab-item">
+
+                                <img src="img/car.png" alt="">
+                                <a href="#"> Dodge
+                                </a>
+                            </div>
+
+                        </div>
+                    </section>
+
+                </div>
+                <a class="sell-bnr-btn">Show more</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="recent-adds">
+        <div class="container">
+            <h2 class="main-bld-hd">
+                Recent Adds
+            </h2>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="add-item-wrap">
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="add-item-wrap">
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="add-item-wrap">
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="add-item-wrap">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>@copyright motoPart</p>
+    </footer>
+
+
+
+
+    <!-- HTML code for the modal template -->
+    <!-- Modal Post-->
+    <div class="modal fade main-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Post requirement</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div> -->
+
+                <div class="modal-body">
+                    <h3 class="modal-hd">Post requirement</h3>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose condition</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose vechile</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose Year </label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select Maker</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select Model</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select Part</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select SubPart</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose Usage type</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="post-btn">Post reruirement</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Modal Sell-->
+    <div class="modal fade main-modal" id="sell" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Post requirement</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div> -->
+
+                <div class="modal-body">
+                    <h3 class="modal-hd">Sell Parts</h3>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose condition</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose vechile</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose Year </label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select Maker</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select Model</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select Part</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Select SubPart</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label for="recipient-name" class="col-form-label">Choose Usage type</label>
+                                    <input type="text" class="form-control" id="recipient-name">
+                                </div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <button class="sell-btn">Sell Part</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://pro.fontawesome.com/releases/v6.4.0/js/all.js"
+        integrity="sha384-4QqufDgM4x8hSjGKdJ+IDeO/B1adgZ4a4J9Fj0CEg99A+Rt8sNbeLs0h3qwnHzTl"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

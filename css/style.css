@@ -1,0 +1,832 @@
+/* 15-9-22
+Car spare site style by Ajay */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.pt-50 {
+    padding-top: 50px
+}
+
+.pt-100 {
+    padding-top: 100px
+}
+
+.custom-nav {
+    padding: 20px 0;
+    background: #162d6a;
+}
+
+.custom-nav .logo {
+    width: 132px;
+}
+
+.custom-nav.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .55);
+    font-size: 16px;
+    width: 160px;
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+}
+
+.custom-nav.navbar-light .navbar-nav .nav-link.active,
+.custom-nav.navbar-light .navbar-nav .show>.nav-link {
+    font-weight: 600;
+}
+
+.nav-search input.form-control {
+    height: 45px;
+    font-size: 14px;
+}
+
+
+.nav-search button {
+    background: #fff;
+    border-left: none;
+    height: 45px;
+    width: 40px;
+    border: 1px solid #fff;
+
+}
+
+.nav-search .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-light .navbar-brand{
+    color: #fff;
+}
+.nav-search button:focus {
+    color: #212529;
+    background-color: #fff;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+/* ----------------------------------------------------------------------- nav style ends  */
+.banner-wrap {
+    position: relative;
+}
+
+.banner {
+    height: calc(100vh - 107px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: rgb(74 69 69 / 82%);
+    background-image: url(../img/bg-img.jpg);
+    /* padding: 0 120px; */
+    padding-right: 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh - 81px);
+    /* background-image: linear-gradient(to right, #e53e2b, #38383c); */
+}
+
+.banner-center {
+    z-index: 999;
+    text-align: center;
+}
+
+.banner-center h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.banner-center p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.post-bnr-btn {
+    padding: 18px 35px;
+    border-radius: 0;
+    font-size: 13px;
+    line-height: 1em;
+    letter-spacing: 0;
+    background: #314784FF;
+    margin: 15px 0;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.sell-bnr-btn {
+    padding: 18px 35px;
+    border-radius: 0;
+    font-size: 13px;
+    line-height: 1em;
+    letter-spacing: 0;
+    background: #26ba26;
+    margin: 15px 0;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    min-width: 211px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.sell-bnr-btn:hover,
+.post-bnr-btn:hover {
+    color: #fff;
+}
+
+/* .quote-btn:hover {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+} */
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgb(49 71 132 / 50%);
+}
+
+.contact-box {
+    z-index: 99;
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    border: 2px solid #fff;
+    padding: 25px 20px;
+    background: rgba(0, 0, 0, 0.42);
+}
+
+.contact-item {
+    display: flex;
+    align-items: self-start;
+    margin-bottom: 10px;
+}
+
+.contact-item img {
+    width: 25px;
+    margin-right: 20px;
+}
+
+.contact-item h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.contact-item a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* --------------------------------------------post,sell modal style starts here */
+.main-modal {
+    z-index: 999999;
+}
+
+.main-modal .modal-hd {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.main-modal .modal-body {
+    padding: 40px;
+}
+
+.main-modal input {
+    height: 45px;
+}
+
+.main-modal .modal-content {
+    border-radius: 20px;
+}
+
+.main-modal .col-form-label {
+    color: #272727;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.post-btn {
+    text-transform: uppercase;
+    padding: 18px 35px;
+    border-radius: 0;
+    font-size: 13px;
+    background: #314784FF;
+    line-height: 1em;
+    letter-spacing: 0;
+    border: 2px solid #fff;
+    margin: 15px 0;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5PX;
+    transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+    margin-top: 30px;
+}
+
+.sell-btn {
+    text-transform: uppercase;
+    padding: 18px 35px;
+    border-radius: 0;
+    font-size: 13px;
+    background: #26ba26;
+    line-height: 1em;
+    letter-spacing: 0;
+    border: 2px solid #fff;
+    margin: 15px 0;
+    display: inline-block;
+    color: #fff;
+    MIN-WIDTH: 211PX;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5PX;
+    transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+    margin-top: 30px;
+}
+
+/*======================================================================== filter card style starts here  */
+.filter-card {
+    position: absolute;
+    bottom: -138px;
+    width: 70%;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 35px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+h3.semi-bld-hd {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #262626;
+}
+
+.filter-card select {
+    background: #e0e0e0;
+    color: #b0aeae;
+    height: 46px;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+/* Select arrow styling */
+.filter-card select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M6 9l6 6 6-6'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: right .5rem center;
+    padding-right: 1.5rem;
+    /* Adjust this value to make space for the arrow */
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+}
+
+/* Select arrow color */
+.filter-card select::-ms-expand {
+    color: #999;
+    /* For Microsoft Edge */
+}
+
+.filter-card select:focus::-ms-value {
+    color: #333;
+    /* For Microsoft Edge */
+}
+
+.filter-card select:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: #007bff;
+}
+
+.filter-card select option {
+    color: #333;
+}
+
+.sell-bnr-btn-crd {
+    padding: 18px 35px;
+    border-radius: 0;
+    font-size: 13px;
+    line-height: 1em;
+    letter-spacing: 0;
+    background: #26ba26;
+    margin: 15px 0;
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    width: 100%;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: color .2s ease-in, background-color .2s ease-in, border-color .2s ease-in, box-shadow .2s ease-in, -webkit-box-shadow .2s ease-in;
+    margin: 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.sell-bnr-btn-crd:hover {
+    color: #fff;
+}
+
+
+/* ----------------------------------------------------------------- Section recent parts  */
+section {
+    padding-bottom: 70px;
+}
+
+section.recent-parts {
+    padding-top: 200px;
+}
+
+h2.main-bld-hd {
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tabset>input[type="radio"] {
+    position: absolute;
+    left: -200vw;
+}
+
+.tabset .tab-panel {
+    display: none;
+}
+
+.tabset>input:first-child:checked~.tab-panels>.tab-panel:first-child,
+.tabset>input:nth-child(3):checked~.tab-panels>.tab-panel:nth-child(2),
+.tabset>input:nth-child(5):checked~.tab-panels>.tab-panel:nth-child(3),
+.tabset>input:nth-child(7):checked~.tab-panels>.tab-panel:nth-child(4),
+.tabset>input:nth-child(9):checked~.tab-panels>.tab-panel:nth-child(5),
+.tabset>input:nth-child(11):checked~.tab-panels>.tab-panel:nth-child(6) {
+    display: block;
+}
+
+
+.tabset>label {
+    position: relative;
+    display: inline-block;
+    padding: 15px 25px 25px;
+    border: 1px solid transparent;
+    border-bottom: 0;
+    cursor: pointer;
+    font-weight: 600;
+    color: #737578;
+    z-index: 9999999;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.tabset>label:hover,
+.tabset>input:focus+label,
+.tabset>input:checked+label {
+    color: #262626;
+    font-weight: 700;
+
+}
+
+.tabset>label:hover::before,
+.tabset>input:focus+label::before,
+.tabset>input:checked+label::before {
+    background: #26ba26;
+    content: "";
+    position: absolute;
+    left: 24px;
+    bottom: 12px;
+    width: 42px;
+    height: 8px;
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.tabset>input:checked+label {
+    margin-bottom: -1px;
+    border: navajowhite;
+}
+
+.tab-panel {
+    padding: 30px 0;
+    border: none;
+}
+
+
+.tabset {
+    max-width: 70em;
+    margin: 0 auto;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.tab-panels {
+    /* text-align: left; */
+    margin: 15px 0;
+}
+
+.tablist {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 23%;
+    margin-bottom: 15px;
+    cursor: pointer;
+    /* background: #f3f3f3; */
+    margin: 0 10px;
+    margin-bottom: 25px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px; */
+    padding: 11px;
+    border-radius: 5px;
+}
+
+.tab-item a {
+    color: #262626;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.tab-item img {
+    width: 100%;
+}
+
+
+
+/* --------------------------------------------------------------------------- section recent adds  */
+.add-item-wrap {
+    background: #D9D9D9;
+    width: 90%;
+    margin: 0 auto;
+    height: 250px;
+    margin-bottom: 65px;
+}
+
+
+/* ---------------------------------------------------------------------------------------- footer style starts here  */
+footer {
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #162D6A;
+}
+
+footer p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* ***************--------------------******************----------------**************-----------Innerpage style starts here  */
+/* --------------------------------------------inner banner starts  */
+.inner-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background: rgb(74 69 69 / 82%);
+    background-image: url(../img/bg-img.jpg);
+    /* padding: 0 120px; */
+    padding-right: 0;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh - 360px);
+}
+
+.inner-banner-center {
+    z-index: 999;
+    text-align: center;
+}
+
+.inner-banner-center h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.inner-banner-center p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    width: 70%;
+    margin-bottom: 15px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+.slick-slide img {
+    display: block;
+    width: 100%;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+    margin: 30px 0;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -45px;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #314784;
+    font-size: 14px;
+}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px;
+    color: #162d6a;
+}
+
+/* -------------------------------------------detail right starts here  */
+.detail-right {
+    padding-left:  50px;
+}
+
+.semibld-hd {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.bld-sm-txt {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
+
+.nrml-txt {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.price {
+    font-size: 45px;
+    color: #0F0F0F;
+    font-weight: 900;
+    margin-bottom: 10px;
+    line-height: 1;
+}
+
+.strick-price-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.strike-txt {
+    font-size: 22px;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin-right: 15px;
+}
+
+.off-txt {
+    color: #0F0F0F;
+}
+
+.spec-card {
+    background: #ddd;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.options {
+    color: #0F0F0F;
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.options-crd {}
+
+.options-crd p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.options-crd p span {
+    font-weight: 400;
+}
+
+.detail-btn-wrp {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.slick-slide {
+    cursor: pointer;
+}
+
+/* -----------------------------------------------------scroll style starts her  */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #c0c0c0;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------#########################--------------------------------- responsive starts from here  */
+
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .banner-center h1 {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+
+    .banner {
+        align-items: baseline;
+    }
+
+    .banner-center p {
+        display: none;
+    }
+
+
+    .post-bnr-btn {
+        margin: 0;
+        min-width: 211px;
+        margin-bottom: 10px;
+        padding: 15px 17px;
+    }
+
+    .sell-bnr-btn {
+        padding: 15px 17px;
+    }
+
+    .filter-card {
+        position: absolute;
+        bottom: -180px;
+        width: 85%;
+    }
+
+    .tab-item {
+        width: 40%;
+    }
+
+    .main-modal .modal-body {
+        padding: 40px 10px;
+    }
+
+    .mb-3 {
+        margin-bottom: 0.2rem !important;
+    }
+          .custom-nav.navbar-light .navbar-nav .nav-link {
+              margin: 10px auto;
+          }
+                  .detail-right {
+                      padding-left: 0px;
+                        padding-top: 20px;
+                  }
+        
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .banner-center h1 {
+        font-size: 55px;
+    }
+
+    .banner-center p {
+        font-size: 17px;
+    }
+
+    .tab-item {
+        width: 40%;
+    }
+
+    .filter-card {
+        bottom: -160px;
+    }
+         .nav-search {
+             width: 50%;
+             margin: 0 auto;
+         }
+                   .custom-nav.navbar-light .navbar-nav .nav-link {
+                       margin: 10px auto;
+                   }
+                                   .detail-right {
+                                       padding-left: 0px;
+                                        padding-top: 20px;
+                                   }
+                }
+    /* // Medium devices (tablets, less than 992px) */
+    @media (min-width: 767.98px) and (max-width: 991.98px) {
+        .custom-nav.navbar-light .navbar-nav .nav-link {
+            margin: 10px auto;
+        }
+
+        .nav-search {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        .filter-card {
+            width: 85%;
+        }
+                .detail-right {
+                    padding-left: 0px;
+                }
+    }
+
+    /* // Large devices (desktops, less than 1200px) */
+    @media (min-width: 991.98px) and (max-width: 1199.98px) {
+        .banner-center h1 {
+            font-size: 60px;
+        }
+                 .post-bnr-btn {
+                     margin-bottom: 10px;
+                 }
+                                 .detail-right {
+                                     padding-left: 0px;
+                                 }
+    }
+
+      @media (min-width: 991.98px) and (max-width: 1199.98px) {
+   
+    }
